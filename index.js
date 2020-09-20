@@ -16,3 +16,20 @@ For extra credit, create a conditional that executes a message if the sum is ove
 ********************/
 
 // Your Solution:
+
+function summation (x, y) {
+  var add = x + y;
+  if (add > 10) {
+    console.log("Sum is over 10.");
+  }
+   else
+   if (add === 10) {
+    console.log("Sum is equal to 10.");
+   }
+   else {
+   console.log("Sum is less than 10.");
+   }
+   return add;
+ }
+
+ summation(2, 3)
